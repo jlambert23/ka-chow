@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Learn 2 Type</title>
+  </head>
+  <body>
+    <header class="center">Learn 2 Type</header>
+    <section class="options">
+      <div
+        id="numbers"
+        class="option-item center active"
+        onclick="toggleAlphabet(this)"
+      >
+        1
+      </div>
+      <div
+        id="letters"
+        class="option-item center"
+        onclick="toggleAlphabet(this)"
+      >
+        A
+      </div>
+    </section>
+    <section class="center">
+      <div id="answer" class="center answer">0</div>
+    </section>
+  </body>
+  <audio id="audio"></audio>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</html>

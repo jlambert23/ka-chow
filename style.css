@@ -1,0 +1,60 @@
+body {
+  background: url(img/cars.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+header {
+  color: #ee1c24;
+  font-size: 5em;
+  margin: 4rem 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answer {
+  height: 20rem;
+  width: 20rem;
+  font-size: 16em;
+  color: #e6f3fa;
+  background-color: #ee1c24;
+  border-radius: 50%;
+}
+
+.options {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+.option-item {
+  cursor: pointer;
+  color: #ee1c24;
+  font-size: 48px;
+  border: 3px solid #ee1c24;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 0.3em;
+}
+
+.option-item.active {
+  color: #e6f3fa;
+  background-color: #ee1c24;
+}
